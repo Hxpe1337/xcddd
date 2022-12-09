@@ -1,0 +1,69 @@
+<!DOCTYPE html> <html lang="pl-PL">
+<head>
+<meta charset="utf-8"> <meta name="Description" content="tekst"> <title> Formularz </title>
+</head>
+<body>
+     <h1>Formularz rejestracyjny:</h1>
+
+<p>Podaj swoje nazwisko:
+        <input type="text" name="nazwisko" value="" size="30" width="200px"></p>
+</form>
+
+<p>Podaj swoje imię:
+    <input type="text" name="nazwisko" value="" size="30" width="200px"></p>
+</form>
+
+
+</html>
+</head> 
+<form action="http://localhost/skrypt_form.php" method="post">
+<p>Wybierz płeć:</p>
+<p>
+<input type="radio" value="Kobieta" name="grupa_opcji" checked >Kobieta <br>
+<input type="radio" value="Mezczyzna" name="grupa_opcji" >Mezczyzna <br>
+</form> 
+
+<form action="http://localhost/skrypt_form.php" method="post"> <p>Podaj wiek
+</form>
+
+
+
+
+<input type="text" name="wiek" size="1" maxlength="3"></p>
+
+<form action="http://localhost/skrypt_form.php" method="post"> <p>Podaj adres e-mail
+</form>
+
+<input type="text" name="text" size="10" maxlength="25"></p>
+
+<p>Wybierz wyksztalcenie</p>
+<p>
+    <input type="radio" value="Kobieta" name="grupa_opcji" checked >Podstawowe <br>
+    <input type="radio" value="Mezczyzna" name="grupa_opcji" >Średnie <br>
+    <input type="radio" value="Mezczyzna" name="grupa_opcji" >Wyższe <br>
+</p>
+
+<p>Wybierz języki:</p>
+<select name="języki" size="5" multiple>
+    <option>Język angielski</option>
+    <option value="Język niemiecki" selected="selected">Język niemiecki </option>
+    <option value="Język francuski">Język francuski</option> <option value="Język włoski" selected="selected">Język włoski</option>
+    <option value="Język rosyjski">Język rosyjski</option>
+    <option value="Język hiszpański">Język hiszpański</option></select>
+    </form>
+
+    <p>Wybierz zainteresowania:</p>
+
+    <label><input type="checkbox" name="opcje"> Motoryzacja</label> <br>
+    <label><input type="checkbox" name="opcje"> Sport</label><br>
+    <label><input type="checkbox" name="opcje"> Muzyka</label><br>
+    <label><input type="checkbox" name="opcje"> Taniec</label><br>
+    <label><input type="checkbox" name="opcje"> Gry komputerowe</label><br>
+    <label><input type="checkbox" name="opcje"> Inne (podaj jakie): </label><input type="text" name="haslo" size="10" maxlength="14"></p>
+
+    <br>
+    <p>Wypisz swoje uwagi:</p>
+    <textarea style="width: 250px; height: 100px"></textarea> <br>
+    <label><input type="checkbox" name="opcje"> Zgadzam się na przetwarzanie moich danych osobowych</label> <br>
+    <input type="submit" value="Wyślij">
+</body>
